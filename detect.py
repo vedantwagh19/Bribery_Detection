@@ -326,7 +326,7 @@ def main(_argv):
                             os.makedirs(path)
 
                     path = os.path.join(result_path, folder_name)
-                    image_name = "/" + str(folder_name) +"__"+str(bag_freq[new_id])+ ".jpg"
+                    image_name = "/" + str(folder_name) +"_"+str(int(bag_freq[new_id]))+ ".jpg"
                     full_path = path + image_name
                     #print(full_path)
                     x1,y1,x2,y2 = rectangle_coordinates(person_bbox[j].bbox)

@@ -127,7 +127,7 @@ def main(_argv):
     bag_freq=np.zeros(10000)
     bag_flag=np.zeros(1000)
     flag_freq=np.zeros(1000)
-    result_path="/content/drive/MyDrive/Image Results"
+    result_path="/content/drive/MyDrive/Detection_Results"
 
     # while video is running
     print('Video is being Processed......')

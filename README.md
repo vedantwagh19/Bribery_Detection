@@ -75,10 +75,6 @@ python detect.py --weights ./checkpoints/yolov4-tiny-416 --model yolov4 --video 
 ## Resulting Video
 As mentioned above, the resulting video will save to wherever you set the ``--output`` command line flag path to. I always set it to save to the 'outputs' folder. You can also change the type of video saved by adjusting the ``--output_format`` flag, by default it is set to AVI codec which is XVID.
 
-## Filter Classes that are Tracked by Object Tracker
-By default the code is setup to track all 80 or so classes from the coco dataset, which is what the pre-trained YOLOv4 model is trained on. However, you can easily adjust a few lines of code in order to track any 1 or combination of the 80 classes. It is super easy to filter only the ``person`` class or only the ``car`` class which are most common.
-
-To filter a custom selection of classes all you need to do is comment out line 202 and uncomment out line 205 of [detect.py](https://github.com/vedantwagh19/Bribery_Detection/blob/main/detect.py) Within the list ``allowed_classes`` just add whichever classes you want the tracker to track. The classes can be any of the 80 that the model is trained on, see which classes you can track in the file [data/classes/coco.names](https://github.com/vedantwagh19/Bribery_Detection/blob/main/data/classes/coco.names)
 
 ## Command Line Args Reference
 

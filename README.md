@@ -5,8 +5,8 @@ Bribery Detection is implemented with YOLOv4, DeepSort, and TensorFlow. YOLOv4 i
 
 # How To Run It on Colab
 
-Click on the "Open In Colab" button on the top left corner of README. and follow the steps :<br>
-Follow the steps provided on the colab<br>
+Click on the "Open In Colab" button on the top left corner of README.<br>
+Follow the steps provided on the. colab<br>
 Enjoy the Result !!! <br>
 
 # How to run it on local system

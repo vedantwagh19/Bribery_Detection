@@ -122,7 +122,6 @@ save_model.py:
 
 ### References  
 
-   Huge shoutout goes to theAIGuysCode, hunglc007 and nwojke for creating the backbones of this repository:
-  * [yolov4-deepsort](https://github.com/theAIGuysCode/yolov4-deepsort)
+   Huge shoutout goes to hunglc007, nwojke for creating the backbones of this repository:
   * [tensorflow-yolov4-tflite](https://github.com/hunglc007/tensorflow-yolov4-tflite)
   * [Deep SORT Repository](https://github.com/nwojke/deep_sort)

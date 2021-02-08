@@ -217,7 +217,7 @@ def main(_argv):
                 names.append(class_name)
         names = np.array(names)
         for i in range(0,len(names)):
-            if names[i]=='suitcase' or names[i]=='handbag' or names[i]=='bagpack':
+            if names[i]=='suitcase' or names[i]=='handbag' or names[i]=='bagpack' or names[i]=='envelopes':
                 names[i]='bag'
 
         #deleting redundant detections
